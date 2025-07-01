@@ -64,13 +64,6 @@
 
             label = "RDP";
         };
-
-        tab: tab {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kt LEFT_ALT &kp TAB>;
-            label = "TAB";
-        };
     };
 
     behaviors {
