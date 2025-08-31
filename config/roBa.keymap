@@ -91,28 +91,28 @@
 
         NUM {
             bindings = <
-&none           &kp F7        &kp F8        &kp F9  &kp F12                                &kp PLUS       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK
-&kp LCTRL       &kp F4        &kp F5        &kp F6  &kp F11    &kp UP        &kp LEFT      &kp COLON      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ENTER
-&kp LEFT_SHIFT  &kp F1        &kp F2        &kp F3  &kp EQUAL  &kp DOWN      &kp RIGHT     &kp SLASH      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS
-&kp ESC         &kp LEFT_ALT  &kp LEFT_WIN  &none   &none      &none         &kp NUMBER_0  &kp BACKSPACE                                            &kp F10
+&mt LEFT_ALT F12  &kp F7      &kp F8        &kp F9  &kp F12                             &kp COLON      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK
+&mt LCTRL F11     &kp F4      &kp F5        &kp F6  &kp PLUS   &kp UP        &kp LEFT   &kp SLASH      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ENTER
+&kp LEFT_SHIFT    &kp F1      &kp F2        &kp F3  &kp EQUAL  &kp DOWN      &kp RIGHT  &kp NUMBER_0   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &mt RIGHT_SHIFT MINUS
+&kp ESC           &kp DELETE  &kp LEFT_WIN  &none   &none      &none         &kp DOT    &kp BACKSPACE                                            &kp F10
             >;
         };
 
         ARROW {
             bindings = <
-&kp LG(LS(S))         &kp LC(LS(TAB))     &kp LS(LEFT_WIN)  &kp LC(TAB)      &kp LC(LS(T))                      &kp RS(HOME)        &kp HOME          &kp UP_ARROW    &kp END          &kp RS(END)
-&mt LCTRL LC(A)       &mt LEFT_ALT LC(S)  &kp LEFT_WIN      &mt LCTRL LC(F)  &kp TAB        &none       &none   &kp RC(LEFT_ARROW)  &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RC(RIGHT_ARROW)
-&mt LEFT_SHIFT LC(Z)  &kp LC(X)           &kp LC(C)         &kp LC(V)        &kp LG(LS(S))  &none       &none   &kp LESS_THAN       &kp GREATER_THAN  &kp COMMA       &kp PERIOD       &kp RIGHT_SHIFT
-&trans                &trans              &trans            &trans           &trans         &trans      &trans  &kp BACKSPACE                                                          &poteto
+&kp LG(LS(S))         &kp LC(LS(TAB))     &kp LG(E)             &kp LC(TAB)      &kp LC(LS(T))                      &kp RS(HOME)        &kp HOME          &kp UP_ARROW    &kp END          &kp RS(END)
+&mt LCTRL LC(A)       &mt LEFT_ALT LC(S)  &mt LEFT_WIN LG(TAB)  &mt LCTRL LC(F)  &kp TAB        &none       &none   &kp RC(LEFT_ARROW)  &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RC(RIGHT_ARROW)
+&mt LEFT_SHIFT LC(Z)  &kp LC(X)           &kp LC(C)             &kp LC(V)        &kp LC(LS(V))  &none       &none   &kp LESS_THAN       &kp GREATER_THAN  &kp COMMA       &kp PERIOD       &kp RIGHT_SHIFT
+&kp ESCAPE            &kp DELETE          &kp LEFT_WIN          &trans           &trans         &trans      &trans  &kp BACKSPACE                                                          &kp F10
             >;
         };
 
         SYMBOL {
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN       &kp HASH       &kp DOLLAR        &kp PERCENT                                 &kp CARET      &kp AMPERSAND  &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp LCTRL        &kp LEFT_ALT      &kp LEFT_WIN   &kp LCTRL         &kp TAB            &kp UP        &kp LEFT   &kp QUESTION   &kp COLON      &kp DOUBLE_QUOTES  &kp UNDERSCORE        &kp PIPE
-&kp LEFT_SHIFT   &kp LC(LA(HOME))  &kp LC(LS(X))  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DOWN      &kp RIGHT  &kp SLASH      &kp SEMICOLON  &kp SQT            &kp MINUS             &kp NON_US_BACKSLASH
-&none            &none             &none          &none             &none              &none         &kp F10    &kp BACKSPACE                                                          &kp F10
+&kp EXCLAMATION  &kp AT_SIGN       &kp HASH       &kp DOLLAR        &kp PERCENT                                        &kp CARET          &kp AMPERSAND  &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp LCTRL        &kp LEFT_ALT      &kp LEFT_WIN   &kp LCTRL         &kp TAB            &kp UP        &kp LEFT          &kp QUESTION       &kp COLON      &kp DOUBLE_QUOTES  &kp UNDERSCORE        &kp PIPE
+&kp LEFT_SHIFT   &kp LC(LA(HOME))  &kp LC(LS(X))  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DOWN      &kp RIGHT         &kp SLASH          &kp SEMICOLON  &kp SQT            &kp MINUS             &kp NON_US_BACKSLASH
+&none            &none             &none          &none             &none              &none         &kp LEFT_BRACKET  &kp RIGHT_BRACKET                                                          &kp F10
             >;
         };
 
@@ -120,7 +120,7 @@
             bindings = <
 &bt BT_CLR_ALL  &bt BT_CLR    &none         &none         &none                                     &none    &none      &msc MOVE_X(5)   &none     &none
 &none           &none         &none         &bt BT_NXT    &none         &kp C_VOLUME_UP      &none  &none    &mkp MB1   &msc MOVE_Y(10)  &mkp MB2  &none
-&none           &none         &none         &bt BT_PRV    &none         &kp C_VOL_DN         &none  &poteto  &kp RCTRL  &kp RIGHT_ALT    &kp HOME  &none
+&none           &none         &none         &bt BT_PRV    &none         &kp C_VOL_DN         &none  &poteto  &kp RCTRL  &kp RA(HOME)     &none     &none
 &none           &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0         &none  &none                                          &none
             >;
         };
