@@ -91,10 +91,10 @@
 
         NUM {
             bindings = <
-&mt LEFT_ALT F12  &kp F7      &kp F8        &kp F9  &kp F12                             &kp COLON      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK
-&mt LCTRL F11     &kp F4      &kp F5        &kp F6  &kp PLUS   &kp UP        &kp LEFT   &kp SLASH      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ENTER
-&kp LEFT_SHIFT    &kp F1      &kp F2        &kp F3  &kp EQUAL  &kp DOWN      &kp RIGHT  &kp NUMBER_0   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &mt RIGHT_SHIFT MINUS
-&kp ESC           &kp DELETE  &kp LEFT_WIN  &none   &none      &none         &kp DOT    &kp BACKSPACE                                            &kp F10
+&mt LEFT_ALT F12  &kp F7      &kp F8        &kp F9  &kp F12                                &kp COLON      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK
+&mt LCTRL F11     &kp F4      &kp F5        &kp F6  &kp PLUS   &kp UP        &kp LEFT      &kp SLASH      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ENTER
+&kp LEFT_SHIFT    &kp F1      &kp F2        &kp F3  &kp EQUAL  &kp DOWN      &kp RIGHT     &kp DOT        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &mt RIGHT_SHIFT MINUS
+&kp ESC           &kp DELETE  &kp LEFT_WIN  &none   &none      &none         &kp NUMBER_0  &kp BACKSPACE                                            &kp F10
             >;
         };
 
