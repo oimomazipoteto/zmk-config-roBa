@@ -87,6 +87,8 @@
 &mt LEFT_SHIFT Z  &kp X           &kp C           &kp V        &kp B        &kp PAGE_DOWN         &kp RA(PAGE_DOWN)  &kp N          &lt 5 M      &mkp LCLK        &mkp RCLK        &mt RIGHT_SHIFT MINUS
 &kp ESC           &kp DEL         &kp LEFT_WIN    &lt 3 TAB    &lt 2 SPACE  &lt 1 LANGUAGE_2      &lt 4 LANGUAGE_1   &kp BACKSPACE                                                 &kp F10
             >;
+
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         NUM {
